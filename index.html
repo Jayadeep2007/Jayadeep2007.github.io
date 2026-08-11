@@ -1,309 +1,515 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Portfolio</title>
+    <title>Jayadeep | Developer</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Mouse Glow -->
+    <div class="mouse-glow"></div>
+
+
     <!-- Navigation -->
-    <nav>
-        <h2 class="logo">Jay<span>.</span></h2>
 
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </div>
+    <header>
 
-        <button id="themeBtn">🌙</button>
-    </nav>
+        <nav>
 
-
-    <!-- Home -->
-    <section id="home" class="hero">
-
-        <div class="hero-text">
-
-            <p>Hello, I'm</p>
-
-            <h1>Jayadeep</h1>
-
-            <h2>
-                I am a
-                <span id="typing"></span>
-            </h2>
-
-            <p class="intro">
-                I love creating websites, learning new technologies
-                and building interesting projects.
-            </p>
-
-            <button class="main-btn" id="projectBtn">
-                View My Projects
-            </button>
-
-        </div>
-
-        <div class="profile">
-            <div class="profile-circle">
-                J
+            <div class="logo">
+                J<span>.</span>
             </div>
-        </div>
 
-    </section>
+            <div class="nav-links">
 
-
-    <!-- About -->
-    <section id="about">
-
-        <h2 class="section-title">About Me</h2>
-
-        <div class="about-box">
-
-            <p>
-                I'm an engineering student interested in
-                Web Development, JavaScript and Data Structures.
-                I enjoy turning ideas into interactive websites.
-            </p>
-
-            <div class="stats">
-
-                <div>
-                    <h3>10+</h3>
-                    <p>Projects</p>
-                </div>
-
-                <div>
-                    <h3>5+</h3>
-                    <p>Technologies</p>
-                </div>
-
-                <div>
-                    <h3>1+</h3>
-                    <p>Years Learning</p>
-                </div>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
 
             </div>
 
-        </div>
+            <button id="themeBtn">☼</button>
 
-    </section>
+        </nav>
 
-
-    <!-- Skills -->
-    <section id="skills">
-
-        <h2 class="section-title">My Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="skill">
-                <div class="skill-info">
-                    <span>HTML</span>
-                    <span>90%</span>
-                </div>
-
-                <div class="bar">
-                    <div class="progress html"></div>
-                </div>
-            </div>
+    </header>
 
 
-            <div class="skill">
-                <div class="skill-info">
-                    <span>CSS</span>
-                    <span>80%</span>
-                </div>
 
-                <div class="bar">
-                    <div class="progress css"></div>
-                </div>
-            </div>
+    <!-- HERO -->
 
+    <main>
 
-            <div class="skill">
-                <div class="skill-info">
-                    <span>JavaScript</span>
-                    <span>70%</span>
-                </div>
+        <section id="home" class="hero">
 
-                <div class="bar">
-                    <div class="progress js"></div>
-                </div>
-            </div>
+            <div class="hero-content">
 
-
-            <div class="skill">
-                <div class="skill-info">
-                    <span>Python</span>
-                    <span>75%</span>
-                </div>
-
-                <div class="bar">
-                    <div class="progress python"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Projects -->
-    <section id="projects">
-
-        <h2 class="section-title">My Projects</h2>
-
-        <!-- Filter buttons -->
-
-        <div class="filters">
-
-            <button class="filter active" data-filter="all">
-                All
-            </button>
-
-            <button class="filter" data-filter="web">
-                Web
-            </button>
-
-            <button class="filter" data-filter="python">
-                Python
-            </button>
-
-            <button class="filter" data-filter="c">
-                C
-            </button>
-
-        </div>
-
-
-        <div class="projects-container">
-
-            <div class="project-card" data-category="web">
-
-                <h3>🌐 Portfolio Website</h3>
-
-                <p>
-                    A responsive personal portfolio
-                    created using HTML, CSS and JavaScript.
+                <p class="small-text">
+                    — HELLO, I'M JAYADEEP
                 </p>
 
-                <button class="view-btn"
-                    data-title="Portfolio Website"
-                    data-description="An interactive portfolio website with dark mode, animations and project filtering.">
-                    View Project
+                <h1>
+                    I BUILD
+                    <span>DIGITAL</span>
+                    EXPERIENCES.
+                </h1>
+
+                <p class="hero-description">
+                    Engineering student • Web Developer •
+                    Programmer
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#work" class="primary-btn">
+                        Explore My Work →
+                    </a>
+
+                    <a href="#contact" class="secondary-btn">
+                        Let's Talk
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-number">
+                01
+            </div>
+
+        </section>
+
+
+
+        <!-- ABOUT -->
+
+        <section id="about" class="about section">
+
+            <div class="section-number">
+                02
+            </div>
+
+            <div class="about-content">
+
+                <p class="small-text">
+                    — ABOUT ME
+                </p>
+
+                <h2>
+                    Curious mind.
+                    <br>
+                    <span>Creative builder.</span>
+                </h2>
+
+                <p>
+                    I'm an engineering student who enjoys
+                    building things with code. I started with
+                    web development and gradually explored
+                    JavaScript, Python, C and Data Structures.
+                </p>
+
+                <p>
+                    I like turning simple ideas into
+                    interactive experiences and continuously
+                    learning new technologies.
+                </p>
+
+
+                <div class="stats">
+
+                    <div class="stat">
+
+                        <h3 class="counter"
+                            data-target="10">
+                            0
+                        </h3>
+
+                        <p>Projects</p>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <h3 class="counter"
+                            data-target="5">
+                            0
+                        </h3>
+
+                        <p>Technologies</p>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <h3 class="counter"
+                            data-target="100">
+                            0
+                        </h3>
+
+                        <p>Coffee %</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- SKILLS -->
+
+        <section class="skills section">
+
+            <div class="section-number">
+                03
+            </div>
+
+            <div class="skills-content">
+
+                <p class="small-text">
+                    — WHAT I USE
+                </p>
+
+                <h2>
+                    My <span>toolbox.</span>
+                </h2>
+
+
+                <div class="skills-list">
+
+                    <div class="skill-item">
+
+                        <span>01</span>
+
+                        <h3>HTML / CSS</h3>
+
+                        <p>
+                            Building responsive and
+                            structured websites.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <span>02</span>
+
+                        <h3>JavaScript</h3>
+
+                        <p>
+                            Creating interactive
+                            web experiences.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <span>03</span>
+
+                        <h3>Python</h3>
+
+                        <p>
+                            Problem solving and
+                            application development.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-item">
+
+                        <span>04</span>
+
+                        <h3>C / DSA</h3>
+
+                        <p>
+                            Algorithms, data structures
+                            and logical thinking.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- WORK -->
+
+        <section id="work" class="work section">
+
+            <div class="section-number">
+                04
+            </div>
+
+            <div class="work-content">
+
+                <p class="small-text">
+                    — SELECTED WORK
+                </p>
+
+                <h2>
+                    Things I've
+                    <span>built.</span>
+                </h2>
+
+
+                <!-- FILTERS -->
+
+                <div class="filters">
+
+                    <button
+                        class="filter active"
+                        data-filter="all">
+                        ALL
+                    </button>
+
+                    <button
+                        class="filter"
+                        data-filter="web">
+                        WEB
+                    </button>
+
+                    <button
+                        class="filter"
+                        data-filter="python">
+                        PYTHON
+                    </button>
+
+                    <button
+                        class="filter"
+                        data-filter="c">
+                        C
+                    </button>
+
+                </div>
+
+
+
+                <!-- PROJECTS -->
+
+                <div class="projects">
+
+
+                    <article
+                        class="project"
+                        data-category="web">
+
+                        <div class="project-top">
+
+                            <span>01 / WEB</span>
+
+                            <span>↗</span>
+
+                        </div>
+
+                        <h3>
+                            Personal
+                            <br>
+                            Portfolio
+                        </h3>
+
+                        <p>
+                            Interactive personal portfolio
+                            built using HTML, CSS and
+                            JavaScript.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article
+                        class="project"
+                        data-category="python">
+
+                        <div class="project-top">
+
+                            <span>02 / PYTHON</span>
+
+                            <span>↗</span>
+
+                        </div>
+
+                        <h3>
+                            Quiz
+                            <br>
+                            Application
+                        </h3>
+
+                        <p>
+                            A Python application that
+                            displays questions and
+                            calculates scores.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Python</span>
+                            <span>Functions</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article
+                        class="project"
+                        data-category="c">
+
+                        <div class="project-top">
+
+                            <span>03 / C</span>
+
+                            <span>↗</span>
+
+                        </div>
+
+                        <h3>
+                            Movie Ticket
+                            <br>
+                            Booking
+                        </h3>
+
+                        <p>
+                            Menu-driven movie booking
+                            system created using C.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>C</span>
+                            <span>Structs</span>
+                            <span>Arrays</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article
+                        class="project"
+                        data-category="web">
+
+                        <div class="project-top">
+
+                            <span>04 / WEB</span>
+
+                            <span>↗</span>
+
+                        </div>
+
+                        <h3>
+                            E-Commerce
+                            <br>
+                            Interface
+                        </h3>
+
+                        <p>
+                            Modern shopping interface with
+                            interactive product elements.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CONTACT -->
+
+        <section id="contact" class="contact section">
+
+            <div class="section-number">
+                05
+            </div>
+
+            <div class="contact-content">
+
+                <p class="small-text">
+                    — HAVE A PROJECT?
+                </p>
+
+                <h2>
+                    LET'S MAKE
+                    <span>
+                        SOMETHING
+                    </span>
+                    GREAT.
+                </h2>
+
+                <button id="contactBtn"
+                    class="contact-btn">
+
+                    Get In Touch ↗
+
                 </button>
 
             </div>
 
+        </section>
 
-            <div class="project-card" data-category="python">
-
-                <h3>🐍 Quiz Application</h3>
-
-                <p>
-                    A Python-based quiz application
-                    with questions and score calculation.
-                </p>
-
-                <button class="view-btn"
-                    data-title="Quiz Application"
-                    data-description="A Python quiz application that displays questions and calculates the user's score.">
-                    View Project
-                </button>
-
-            </div>
+    </main>
 
 
-            <div class="project-card" data-category="c">
 
-                <h3>🎬 Movie Booking System</h3>
-
-                <p>
-                    A menu-driven movie ticket booking
-                    system created using C.
-                </p>
-
-                <button class="view-btn"
-                    data-title="Movie Booking System"
-                    data-description="A C project for booking movie tickets, viewing seats and managing bookings.">
-                    View Project
-                </button>
-
-            </div>
-
-
-            <div class="project-card" data-category="web">
-
-                <h3>🛒 E-Commerce Website</h3>
-
-                <p>
-                    A simple shopping website with
-                    interactive product cards.
-                </p>
-
-                <button class="view-btn"
-                    data-title="E-Commerce Website"
-                    data-description="A frontend e-commerce website with product cards, filtering and interactive UI elements.">
-                    View Project
-                </button>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Contact -->
-    <section id="contact">
-
-        <h2 class="section-title">Contact Me</h2>
-
-        <div class="contact-box">
-
-            <p>Interested in working together?</p>
-
-            <button id="contactBtn" class="main-btn">
-                Say Hello 👋
-            </button>
-
-        </div>
-
-    </section>
-
-
-    <!-- Project Modal -->
-
-    <div id="modal" class="modal">
-
-        <div class="modal-content">
-
-            <button id="closeModal">×</button>
-
-            <h2 id="modalTitle"></h2>
-
-            <p id="modalDescription"></p>
-
-        </div>
-
-    </div>
-
+    <!-- FOOTER -->
 
     <footer>
-        <p>© 2026 Jayadeep. Made with HTML, CSS & JavaScript.</p>
+
+        <div>
+            © 2026 JAYADEEP
+        </div>
+
+        <div>
+            BUILT WITH HTML • CSS • JS
+        </div>
+
     </footer>
 
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
