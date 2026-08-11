@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayadeep | Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="mouse-glow"></div>
+
+    <header>
+        <nav>
+            <div class="logo">J<span>.</span></div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button id="themeBtn">☼</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="small-text">— HELLO, I'M JAYADEEP</p>
+                <h1>I BUILD <span>DIGITAL</span> EXPERIENCES.</h1>
+                <p class="hero-description">Engineering student • Web Developer • Programmer</p>
+                <div class="hero-buttons">
+                    <a href="#work" class="primary-btn">Explore My Work →</a>
+                    <a href="#contact" class="secondary-btn">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-number">01</div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="section-number">02</div>
+            <div class="about-content">
+                <p class="small-text">— ABOUT ME</p>
+                <h2>Curious mind.<br><span>Creative builder.</span></h2>
+                <p>I'm an engineering student who enjoys building things with code. I started with web development and gradually explored JavaScript, Python, C and Data Structures.</p>
+                <p>I like turning simple ideas into interactive experiences and continuously learning new technologies.</p>
+                <div class="stats">
+                    <div class="stat"><h3 class="counter" data-target="10">0</h3><p>Projects</p></div>
+                    <div class="stat"><h3 class="counter" data-target="5">0</h3><p>Technologies</p></div>
+                    <div class="stat"><h3 class="counter" data-target="100">0</h3><p>Coffee %</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section">
+            <div class="section-number">03</div>
+            <div class="skills-content">
+                <p class="small-text">— WHAT I USE</p>
+                <h2>My <span>toolbox.</span></h2>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <span>01</span>
+                        <h3>HTML / CSS</h3>
+                        <p>Building responsive and structured websites.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>02</span>
+                        <h3>JavaScript</h3>
+                        <p>Creating interactive web experiences.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>03</span>
+                        <h3>Python</h3>
+                        <p>Problem solving and application development.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>04</span>
+                        <h3>C / DSA</h3>
+                        <p>Algorithms, data structures and logical thinking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work section">
+            <div class="section-number">04</div>
+            <div class="work-content">
+                <p class="small-text">— SELECTED WORK</p>
+                <h2>Things I've <span>built.</span></h2>
+
+                <div class="filters">
+                    <button class="filter active" data-filter="all">ALL</button>
+                    <button class="filter" data-filter="web">WEB</button>
+                    <button class="filter" data-filter="python">PYTHON</button>
+                    <button class="filter" data-filter="c">C</button>
+                </div>
+
+                <div class="projects">
+
+                    <article class="project" data-category="web">
+                        <div class="project-top"><span>01 / WEB</span><span>↗</span></div>
+                        <h3>Personal<br>Portfolio</h3>
+                        <p>Interactive personal portfolio built using HTML, CSS and JavaScript.</p>
+                        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    </article>
+
+                    <article class="project" data-category="python">
+                        <div class="project-top"><span>02 / PYTHON</span><span>↗</span></div>
+                        <h3>Quiz<br>Application</h3>
+                        <p>A Python application that displays questions and calculates scores.</p>
+                        <div class="project-tags"><span>Python</span><span>Functions</span></div>
+                    </article>
+
+                    <article class="project" data-category="c">
+                        <div class="project-top"><span>03 / C</span><span>↗</span></div>
+                        <h3>Movie Ticket<br>Booking</h3>
+                        <p>Menu-driven movie booking system created using C.</p>
+                        <div class="project-tags"><span>C</span><span>Structs</span><span>Arrays</span></div>
+                    </article>
+
+                    <article class="project" data-category="web">
+                        <div class="project-top"><span>04 / WEB</span><span>↗</span></div>
+                        <h3>E-Commerce<br>Interface</h3>
+                        <p>Modern shopping interface with interactive product elements.</p>
+                        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="section-number">05</div>
+            <div class="contact-content">
+                <p class="small-text">— HAVE A PROJECT?</p>
+                <h2>LET'S MAKE <span>SOMETHING</span> GREAT.</h2>
+                <button id="contactBtn" class="contact-btn">Get In Touch ↗</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>© 2026 JAYADEEP</div>
+        <div>BUILT WITH HTML • CSS • JS</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
