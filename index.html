@@ -1,1 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2 class="logo">Jay<span>.</span></h2>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button id="themeBtn">🌙</button>
+    </nav>
+
+
+    <!-- Home -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p>Hello, I'm</p>
+
+            <h1>Jayadeep</h1>
+
+            <h2>
+                I am a
+                <span id="typing"></span>
+            </h2>
+
+            <p class="intro">
+                I love creating websites, learning new technologies
+                and building interesting projects.
+            </p>
+
+            <button class="main-btn" id="projectBtn">
+                View My Projects
+            </button>
+
+        </div>
+
+        <div class="profile">
+            <div class="profile-circle">
+                J
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-box">
+
+            <p>
+                I'm an engineering student interested in
+                Web Development, JavaScript and Data Structures.
+                I enjoy turning ideas into interactive websites.
+            </p>
+
+            <div class="stats">
+
+                <div>
+                    <h3>10+</h3>
+                    <p>Projects</p>
+                </div>
+
+                <div>
+                    <h3>5+</h3>
+                    <p>Technologies</p>
+                </div>
+
+                <div>
+                    <h3>1+</h3>
+                    <p>Years Learning</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="bar">
+                    <div class="progress html"></div>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>CSS</span>
+                    <span>80%</span>
+                </div>
+
+                <div class="bar">
+                    <div class="progress css"></div>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>70%</span>
+                </div>
+
+                <div class="bar">
+                    <div class="progress js"></div>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Python</span>
+                    <span>75%</span>
+                </div>
+
+                <div class="bar">
+                    <div class="progress python"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <!-- Filter buttons -->
+
+        <div class="filters">
+
+            <button class="filter active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter" data-filter="web">
+                Web
+            </button>
+
+            <button class="filter" data-filter="python">
+                Python
+            </button>
+
+            <button class="filter" data-filter="c">
+                C
+            </button>
+
+        </div>
+
+
+        <div class="projects-container">
+
+            <div class="project-card" data-category="web">
+
+                <h3>🌐 Portfolio Website</h3>
+
+                <p>
+                    A responsive personal portfolio
+                    created using HTML, CSS and JavaScript.
+                </p>
+
+                <button class="view-btn"
+                    data-title="Portfolio Website"
+                    data-description="An interactive portfolio website with dark mode, animations and project filtering.">
+                    View Project
+                </button>
+
+            </div>
+
+
+            <div class="project-card" data-category="python">
+
+                <h3>🐍 Quiz Application</h3>
+
+                <p>
+                    A Python-based quiz application
+                    with questions and score calculation.
+                </p>
+
+                <button class="view-btn"
+                    data-title="Quiz Application"
+                    data-description="A Python quiz application that displays questions and calculates the user's score.">
+                    View Project
+                </button>
+
+            </div>
+
+
+            <div class="project-card" data-category="c">
+
+                <h3>🎬 Movie Booking System</h3>
+
+                <p>
+                    A menu-driven movie ticket booking
+                    system created using C.
+                </p>
+
+                <button class="view-btn"
+                    data-title="Movie Booking System"
+                    data-description="A C project for booking movie tickets, viewing seats and managing bookings.">
+                    View Project
+                </button>
+
+            </div>
+
+
+            <div class="project-card" data-category="web">
+
+                <h3>🛒 E-Commerce Website</h3>
+
+                <p>
+                    A simple shopping website with
+                    interactive product cards.
+                </p>
+
+                <button class="view-btn"
+                    data-title="E-Commerce Website"
+                    data-description="A frontend e-commerce website with product cards, filtering and interactive UI elements.">
+                    View Project
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-box">
+
+            <p>Interested in working together?</p>
+
+            <button id="contactBtn" class="main-btn">
+                Say Hello 👋
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Project Modal -->
+
+    <div id="modal" class="modal">
+
+        <div class="modal-content">
+
+            <button id="closeModal">×</button>
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalDescription"></p>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p>© 2026 Jayadeep. Made with HTML, CSS & JavaScript.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
