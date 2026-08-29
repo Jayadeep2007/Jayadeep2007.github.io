@@ -17,7 +17,9 @@
     <li><a href="#education">Education</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a class="nav-resume" href="resume.pdf" target="_blank">Resume ↗</a></li>
   </ul>
 </nav>
 
@@ -38,6 +40,7 @@
   </div>
 
   <div class="hero-links">
+    <a href="resume.pdf" target="_blank" class="primary">📄 View Resume</a>
     <a href="mailto:jayadeepram.v-29@scds.saiuniversity.edu.in">✉ Email</a>
     <a href="https://github.com/Jayadeep2007" target="_blank">GitHub</a>
     <a href="https://www.linkedin.com/in/jayadeep-ram-vanka-2a25aa3ab/" target="_blank">LinkedIn</a>
@@ -147,6 +150,21 @@
   </div>
 </section>
 
+<section id="resume">
+  <h2 class="section-title">My <span>Resume</span></h2>
+  <div class="resume-wrap">
+    <div class="tilt-card resume-card">
+      <div class="resume-icon">📄</div>
+      <h3>Jayadeep Ram Vanka — Resume</h3>
+      <p>B.Tech CDS student profile covering education, technical skills, projects, and career interests in web development and AI.</p>
+      <div class="resume-actions">
+        <a class="view" href="resume.pdf" target="_blank">View Resume</a>
+        <a class="download" href="resume.pdf" download>Download PDF</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="contact" class="contact">
   <h2 class="section-title">Let's <span>Connect</span></h2>
   <p>Open to opportunities, collaborations, and interesting conversations.</p>
@@ -160,7 +178,6 @@
 <footer>© 2026 Jayadeep Ram Vanka. Built with HTML, CSS &amp; JS.</footer>
 
 <script>
-  // ---------- Tilt effect for cards ----------
   document.querySelectorAll('.tilt-card, .about-card').forEach(card=>{
     card.addEventListener('mousemove', e=>{
       const rect = card.getBoundingClientRect();
@@ -175,7 +192,6 @@
     });
   });
 
-  // ---------- Hero title 3D mouse parallax ----------
   const hero = document.querySelector('.hero h1');
   document.addEventListener('mousemove', e=>{
     const x = (e.clientX / window.innerWidth - 0.5) * 20;
@@ -183,7 +199,6 @@
     hero.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
   });
 
-  // ---------- Particle background ----------
   const canvas = document.getElementById('bg-canvas');
   const ctx = canvas.getContext('2d');
   let w, h, particles;
@@ -236,7 +251,6 @@
   }
   animateParticles();
 
-  // ---------- Scroll reveal ----------
   const revealEls = document.querySelectorAll('section');
   const obs = new IntersectionObserver(entries=>{
     entries.forEach(en=>{
