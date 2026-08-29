@@ -1,151 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jayadeep | Developer</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jayadeep Ram Vanka | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="mouse-glow"></div>
+<canvas id="bg-canvas"></canvas>
 
-    <header>
-        <nav>
-            <div class="logo">J<span>.</span></div>
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#work">Work</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <button id="themeBtn">☼</button>
-        </nav>
-    </header>
+<nav>
+  <div class="logo">JR<span>V</span></div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <main>
+<section class="hero">
+  <h1>Jayadeep Ram Vanka</h1>
+  <p class="role">University Student &nbsp;|&nbsp; Aspiring Developer</p>
+  <p class="loc">India</p>
 
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <p class="small-text">— HELLO, I'M JAYADEEP</p>
-                <h1>I BUILD <span>DIGITAL</span> EXPERIENCES.</h1>
-                <p class="hero-description">Engineering student • Web Developer • Programmer</p>
-                <div class="hero-buttons">
-                    <a href="#work" class="primary-btn">Explore My Work →</a>
-                    <a href="#contact" class="secondary-btn">Let's Talk</a>
-                </div>
-            </div>
-            <div class="hero-number">01</div>
-        </section>
+  <div class="cube-wrap">
+    <div class="cube">
+      <div class="front">WEB</div>
+      <div class="back">AI</div>
+      <div class="right">UI/UX</div>
+      <div class="left">DSA</div>
+      <div class="top">JS</div>
+      <div class="bottom">CSS</div>
+    </div>
+  </div>
 
-        <section id="about" class="about section">
-            <div class="section-number">02</div>
-            <div class="about-content">
-                <p class="small-text">— ABOUT ME</p>
-                <h2>Curious mind.<br><span>Creative builder.</span></h2>
-                <p>I'm an engineering student who enjoys building things with code. I started with web development and gradually explored JavaScript, Python, C and Data Structures.</p>
-                <p>I like turning simple ideas into interactive experiences and continuously learning new technologies.</p>
-                <div class="stats">
-                    <div class="stat"><h3 class="counter" data-target="10">0</h3><p>Projects</p></div>
-                    <div class="stat"><h3 class="counter" data-target="5">0</h3><p>Technologies</p></div>
-                    <div class="stat"><h3 class="counter" data-target="100">0</h3><p>Coffee %</p></div>
-                </div>
-            </div>
-        </section>
+  <div class="scroll-hint">↓ scroll to explore</div>
+</section>
 
-        <section class="skills section">
-            <div class="section-number">03</div>
-            <div class="skills-content">
-                <p class="small-text">— WHAT I USE</p>
-                <h2>My <span>toolbox.</span></h2>
-                <div class="skills-list">
-                    <div class="skill-item">
-                        <span>01</span>
-                        <h3>HTML / CSS</h3>
-                        <p>Building responsive and structured websites.</p>
-                    </div>
-                    <div class="skill-item">
-                        <span>02</span>
-                        <h3>JavaScript</h3>
-                        <p>Creating interactive web experiences.</p>
-                    </div>
-                    <div class="skill-item">
-                        <span>03</span>
-                        <h3>Python</h3>
-                        <p>Problem solving and application development.</p>
-                    </div>
-                    <div class="skill-item">
-                        <span>04</span>
-                        <h3>C / DSA</h3>
-                        <p>Algorithms, data structures and logical thinking.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section id="about">
+  <h2 class="section-title">About <span>Me</span></h2>
+  <div class="about-grid">
+    <div class="about-card">
+      <p><strong>Interests:</strong> Web Development, Artificial Intelligence, Emerging Technologies, UI/UX</p>
+      <p><strong>Career Interest:</strong> Web Development, AI, and emerging technology</p>
+      <p><strong>Strengths:</strong> Creative problem-solving, learning new technologies, building practical and visually attractive projects.</p>
+    </div>
+    <div class="about-card">
+      <p>I'm a university student passionate about building things at the intersection of clean design and intelligent systems — from interactive web experiences to AI-powered tools.</p>
+      <p>I enjoy turning ideas into practical, visually polished projects and constantly exploring new technologies to sharpen my craft.</p>
+    </div>
+  </div>
+</section>
 
-        <section id="work" class="work section">
-            <div class="section-number">04</div>
-            <div class="work-content">
-                <p class="small-text">— SELECTED WORK</p>
-                <h2>Things I've <span>built.</span></h2>
+<section id="skills">
+  <h2 class="section-title">Skills &amp; <span>Tools</span></h2>
+  <div class="skills-grid">
+    <div class="tilt-card"><div class="icon">🧩</div><h4>HTML</h4></div>
+    <div class="tilt-card"><div class="icon">🎨</div><h4>CSS</h4></div>
+    <div class="tilt-card"><div class="icon">⚡</div><h4>JavaScript</h4></div>
+    <div class="tilt-card"><div class="icon">🧠</div><h4>Data Structures &amp; Algorithms</h4></div>
+    <div class="tilt-card"><div class="icon">🤖</div><h4>AI Tools</h4></div>
+    <div class="tilt-card"><div class="icon">✍️</div><h4>Prompt Engineering</h4></div>
+  </div>
+</section>
 
-                <div class="filters">
-                    <button class="filter active" data-filter="all">ALL</button>
-                    <button class="filter" data-filter="web">WEB</button>
-                    <button class="filter" data-filter="python">PYTHON</button>
-                    <button class="filter" data-filter="c">C</button>
-                </div>
+<section id="projects">
+  <h2 class="section-title">Featured <span>Projects</span></h2>
+  <div class="projects-grid">
+    <div class="tilt-card project-card">
+      <h3>AquaPulse — Smart Water Bottle</h3>
+      <p>A smart hydration concept combining hardware thinking with app-side tracking to help users build better hydration habits.</p>
+      <span class="tag">IoT / Product Design</span>
+    </div>
+    <div class="tilt-card project-card">
+      <h3>Interactive Web Projects</h3>
+      <p>A collection of hands-on front-end builds exploring animation, layout, and interactivity across HTML, CSS, and JavaScript.</p>
+      <span class="tag">Web Development</span>
+    </div>
+    <div class="tilt-card project-card">
+      <h3>AI-Based Academic Projects</h3>
+      <p>Applied AI experiments and coursework projects exploring practical use cases of AI tools and prompt-driven workflows.</p>
+      <span class="tag">Artificial Intelligence</span>
+    </div>
+  </div>
+</section>
 
-                <div class="projects">
+<section id="contact" class="contact">
+  <h2 class="section-title">Let's <span>Connect</span></h2>
+  <p>Open to opportunities, collaborations, and interesting conversations.</p>
+  <div class="social-links">
+    <a href="https://github.com/Jayadeep2007" target="_blank">GitHub ↗</a>
+    <a href="https://www.linkedin.com/in/jayadeep-ram-vanka-2a25aa3ab/" target="_blank">LinkedIn ↗</a>
+  </div>
+</section>
 
-                    <article class="project" data-category="web">
-                        <div class="project-top"><span>01 / WEB</span><span>↗</span></div>
-                        <h3>Personal<br>Portfolio</h3>
-                        <p>Interactive personal portfolio built using HTML, CSS and JavaScript.</p>
-                        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
-                    </article>
+<footer>© 2026 Jayadeep Ram Vanka. Built with HTML, CSS &amp; JS.</footer>
 
-                    <article class="project" data-category="python">
-                        <div class="project-top"><span>02 / PYTHON</span><span>↗</span></div>
-                        <h3>Quiz<br>Application</h3>
-                        <p>A Python application that displays questions and calculates scores.</p>
-                        <div class="project-tags"><span>Python</span><span>Functions</span></div>
-                    </article>
+<script>
+  // ---------- Tilt effect for cards ----------
+  document.querySelectorAll('.tilt-card, .about-card').forEach(card=>{
+    card.addEventListener('mousemove', e=>{
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      const rotateX = ((y / rect.height) - 0.5) * -14;
+      const rotateY = ((x / rect.width) - 0.5) * 14;
+      card.style.transform = `perspective(600px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(10px)`;
+    });
+    card.addEventListener('mouseleave', ()=>{
+      card.style.transform = 'perspective(600px) rotateX(0deg) rotateY(0deg) translateZ(0)';
+    });
+  });
 
-                    <article class="project" data-category="c">
-                        <div class="project-top"><span>03 / C</span><span>↗</span></div>
-                        <h3>Movie Ticket<br>Booking</h3>
-                        <p>Menu-driven movie booking system created using C.</p>
-                        <div class="project-tags"><span>C</span><span>Structs</span><span>Arrays</span></div>
-                    </article>
+  // ---------- Hero title 3D mouse parallax ----------
+  const hero = document.querySelector('.hero h1');
+  document.addEventListener('mousemove', e=>{
+    const x = (e.clientX / window.innerWidth - 0.5) * 20;
+    const y = (e.clientY / window.innerHeight - 0.5) * -20;
+    hero.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
+  });
 
-                    <article class="project" data-category="web">
-                        <div class="project-top"><span>04 / WEB</span><span>↗</span></div>
-                        <h3>E-Commerce<br>Interface</h3>
-                        <p>Modern shopping interface with interactive product elements.</p>
-                        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
-                    </article>
+  // ---------- Particle background ----------
+  const canvas = document.getElementById('bg-canvas');
+  const ctx = canvas.getContext('2d');
+  let w, h, particles;
 
-                </div>
-            </div>
-        </section>
+  function resize(){
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
 
-        <section id="contact" class="contact section">
-            <div class="section-number">05</div>
-            <div class="contact-content">
-                <p class="small-text">— HAVE A PROJECT?</p>
-                <h2>LET'S MAKE <span>SOMETHING</span> GREAT.</h2>
-                <button id="contactBtn" class="contact-btn">Get In Touch ↗</button>
-            </div>
-        </section>
+  function initParticles(){
+    particles = Array.from({length: 70}, ()=>({
+      x: Math.random()*w,
+      y: Math.random()*h,
+      z: Math.random()*1 + 0.3,
+      vx: (Math.random()-0.5)*0.3,
+      vy: (Math.random()-0.5)*0.3,
+      r: Math.random()*1.8 + 0.5
+    }));
+  }
+  initParticles();
 
-    </main>
+  function animateParticles(){
+    ctx.clearRect(0,0,w,h);
+    particles.forEach(p=>{
+      p.x += p.vx; p.y += p.vy;
+      if(p.x < 0 || p.x > w) p.vx *= -1;
+      if(p.y < 0 || p.y > h) p.vy *= -1;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r * p.z, 0, Math.PI*2);
+      ctx.fillStyle = `rgba(124,92,255,${0.3 * p.z})`;
+      ctx.fill();
+    });
+    for(let i=0;i<particles.length;i++){
+      for(let j=i+1;j<particles.length;j++){
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+        if(dist < 120){
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = `rgba(34,211,238,${0.08*(1-dist/120)})`;
+          ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(animateParticles);
+  }
+  animateParticles();
 
-    <footer>
-        <div>© 2026 JAYADEEP</div>
-        <div>BUILT WITH HTML • CSS • JS</div>
-    </footer>
+  // ---------- Scroll reveal ----------
+  const revealEls = document.querySelectorAll('section');
+  const obs = new IntersectionObserver(entries=>{
+    entries.forEach(en=>{
+      if(en.isIntersecting){
+        en.target.style.opacity = 1;
+        en.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, {threshold:0.15});
+  revealEls.forEach(sec=>{
+    sec.style.opacity = 0;
+    sec.style.transform = 'translateY(40px)';
+    sec.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+    obs.observe(sec);
+  });
+</script>
 
-    <script src="script.js"></script>
 </body>
 </html>
